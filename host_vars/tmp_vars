@@ -1,0 +1,27 @@
+---
+plugins:
+  - 'plain-credentials'
+  - 'workflow-aggregator'
+  - 'credentials-binding'
+  - 'dashboard-view'
+  - 'simple-theme-plugin'
+  - 'parameterized-trigger'
+  - 'github-api'
+  - 'token-macro'
+  - 'github'
+  - 'jquery'
+  - 'embeddable-build-status'
+  - 'nested-view'
+  - 'ws-cleanup'
+  - 'ssh-agent'
+  - 'violations'
+  - 'throttle-concurrents'
+  - 'multiple-scms'
+  - 'swarm'
+  - 'nodelabelparameter'
+port: 8080
+prefix: '/'
+email:
+  smtp_host: 'mail.example.com'
+  smtp_ssl: 'true'
+  default_email_suffix: '@example.com'
